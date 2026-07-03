@@ -9,6 +9,12 @@
       "blurb": "Metis now has a community registry: publish skills, presets, and pipelines with a pull request. The model catalog also lives here, so new models reach every install without an app update."
     }
   ],
-  "community": [],
+  "community": [
+    {
+      "date": "2026-07-03",
+      "title": "SlopSec published",
+      "blurb": "lachydotmcg's security-audit skill for vibe-coded SaaS apps is live in the registry — 50 common ways AI-built apps get pwned, as a repeatable checklist with severity scoring."
+    }
+  ],
   "news": []
 }

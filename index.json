@@ -2,5 +2,5 @@
   "schema_version": "0.1.0",
   "updated": "2026-07-03",
   "comment": "Package index — the app fetches this to enumerate packages, then each packages/<id>/manifest.json. Add your package id here in the same PR that adds your folder.",
-  "packages": ["lachydotmcg.ui-design"]
+  "packages": ["lachydotmcg.slopsec", "lachydotmcg.ui-design"]
 }

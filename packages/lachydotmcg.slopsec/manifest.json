@@ -1,0 +1,21 @@
+{
+  "schema_version": "0.1.0",
+  "id": "lachydotmcg.slopsec",
+  "kind": "skill",
+  "name": "SlopSec",
+  "version": "1.0.0",
+  "publisher": "lachydotmcg",
+  "description": "Security-audits vibe-coded SaaS apps: the 50 most common ways AI-generated apps get pwned, turned into a repeatable checklist with severity scoring and a findings report.",
+  "tags": ["security", "audit", "saas", "checklist", "vibe-coding"],
+  "permissions_requested": ["filesystem.read"],
+  "source_url": "https://raw.githubusercontent.com/lachydotmcg/slopsec/master/SKILL.md",
+  "sha256": "d16690054f109c35f6c5bdc8b775ea39a7b6e76e7e192b195f4203f3a16f297e",
+  "ascii_art": [
+    " ____  _     ___  ____  ____  _____ ____ ",
+    "/ ___|| |   / _ \\|  _ \\/ ___||  ___/ ___|",
+    "\\___ \\| |  | | | | |_) \\___ \\| |_ | |    ",
+    " ___) | |__| |_| |  __/ ___) |  _|| |___ ",
+    "|____/|_____\\___/|_|   |____/|_|   \\____|",
+    "  50 ways your vibe-coded app gets pwned "
+  ]
+}
