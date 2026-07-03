@@ -1,0 +1,20 @@
+{
+  "schema_version": "0.1.0",
+  "id": "lachydotmcg.ui-design",
+  "kind": "skill",
+  "name": "UI Design",
+  "version": "0.1.0",
+  "publisher": "lachydotmcg",
+  "description": "Opinionated frontend design guidance for build stages: committed aesthetics, two-typeface rule, 4-5 swatch palettes, 8px grid, full interaction states. No purple gradients.",
+  "tags": ["design", "frontend", "ui", "css", "typography"],
+  "permissions_requested": [],
+  "source_url": "https://raw.githubusercontent.com/lachydotmcg/metis-registry/main/packages/lachydotmcg.ui-design/skill.md",
+  "sha256": "e0d5089e5add408c9e28d75e160493e0c0235d7813678c35dc2e8c16b4339190",
+  "ascii_art": [
+    "  ___  ___ ",
+    " | | || | |",
+    " |U|I||D|N|",
+    " |_|_||_|_|",
+    "  design.  "
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "0.1.0",
+  "updated": "2026-07-03",
+  "comment": "Live model catalog. Metis Orchestrator fetches this on launch (cached offline), so merging a model here updates every install's model picker without an app release.",
+  "models": [
+    { "provider": "anthropic", "id": "claude-opus-4-8", "name": "Claude Opus 4.8", "tier": "cloud" },
+    { "provider": "anthropic", "id": "claude-sonnet-5", "name": "Claude Sonnet 5", "tier": "cloud" },
+    { "provider": "anthropic", "id": "claude-fable-5", "name": "Claude Fable 5", "tier": "cloud" },
+    { "provider": "anthropic", "id": "claude-haiku-4-5-20251001", "name": "Claude Haiku 4.5", "tier": "cloud" },
+    { "provider": "openai", "id": "gpt-5.1", "name": "GPT-5.1", "tier": "cloud" },
+    { "provider": "openai", "id": "gpt-5-mini", "name": "GPT-5 mini", "tier": "cloud" },
+    { "provider": "gemini", "id": "gemini-2.5-pro", "name": "Gemini 2.5 Pro", "tier": "cloud" },
+    { "provider": "gemini", "id": "gemini-2.5-flash", "name": "Gemini 2.5 Flash", "tier": "cloud" },
+    { "provider": "deepseek", "id": "deepseek-chat", "name": "DeepSeek V3", "tier": "cloud" },
+    { "provider": "deepseek", "id": "deepseek-reasoner", "name": "DeepSeek R1", "tier": "cloud" },
+    { "provider": "openrouter", "id": "x-ai/grok-4", "name": "Grok 4", "tier": "cloud" },
+    { "provider": "ollama", "id": "qwen3:8b", "name": "Qwen3 8B", "tier": "local" },
+    { "provider": "ollama", "id": "qwen3:4b", "name": "Qwen3 4B", "tier": "local" },
+    { "provider": "ollama", "id": "qwen2.5:72b", "name": "Qwen2.5 72B", "tier": "local" },
+    { "provider": "ollama", "id": "llama3.3:70b", "name": "Llama 3.3 70B", "tier": "local" },
+    { "provider": "ollama", "id": "glm4", "name": "GLM-4", "tier": "local" }
+  ]
+}
