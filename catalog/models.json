@@ -16,13 +16,36 @@
     { "provider": "gemini", "id": "gemini-3.1-pro", "name": "Gemini 3.1 Pro", "tier": "cloud" },
     { "provider": "gemini", "id": "gemini-3.5-flash", "name": "Gemini 3.5 Flash", "tier": "cloud" },
     { "provider": "gemini", "id": "gemini-2.5-pro", "name": "Gemini 2.5 Pro", "tier": "cloud" },
-    { "provider": "deepseek", "id": "deepseek-chat", "name": "DeepSeek V4 Flash", "tier": "cloud" },
-    { "provider": "deepseek", "id": "deepseek-reasoner", "name": "DeepSeek V4 Pro", "tier": "cloud" },
-    { "provider": "nvidia", "id": "deepseek-ai/deepseek-v3.1", "name": "DeepSeek V3.1 (NVIDIA)", "tier": "cloud" },
+    { "provider": "deepseek", "id": "deepseek-chat", "name": "DeepSeek V4 Flash", "tier": "cloud",
+      "access": [
+        { "provider": "deepseek", "id": "deepseek-chat" },
+        { "provider": "nvidia", "id": "deepseek-ai/deepseek-v4" },
+        { "provider": "openrouter", "id": "deepseek/deepseek-chat" }
+      ] },
+    { "provider": "deepseek", "id": "deepseek-reasoner", "name": "DeepSeek V4 Pro", "tier": "cloud",
+      "access": [
+        { "provider": "deepseek", "id": "deepseek-reasoner" },
+        { "provider": "nvidia", "id": "deepseek-ai/deepseek-v4-pro" },
+        { "provider": "openrouter", "id": "deepseek/deepseek-r1" }
+      ] },
+    { "provider": "nvidia", "id": "deepseek-ai/deepseek-v3.1", "name": "DeepSeek V3.1 (NVIDIA)", "tier": "cloud",
+      "access": [
+        { "provider": "nvidia", "id": "deepseek-ai/deepseek-v3.1" },
+        { "provider": "openrouter", "id": "deepseek/deepseek-chat-v3.1" }
+      ] },
     { "provider": "openrouter", "id": "x-ai/grok-4.3", "name": "Grok 4.3", "tier": "cloud" },
     { "provider": "openrouter", "id": "z-ai/glm-5.2", "name": "GLM 5.2", "tier": "cloud" },
-    { "provider": "openrouter", "id": "moonshotai/kimi-k2.6", "name": "Kimi K2.6", "tier": "cloud" },
-    { "provider": "groq", "id": "llama-3.3-70b-versatile", "name": "Llama 3.3 70B (Groq)", "tier": "cloud" },
+    { "provider": "openrouter", "id": "moonshotai/kimi-k2.6", "name": "Kimi K2.6", "tier": "cloud",
+      "access": [
+        { "provider": "openrouter", "id": "moonshotai/kimi-k2.6" },
+        { "provider": "groq", "id": "moonshotai/kimi-k2-instruct" }
+      ] },
+    { "provider": "groq", "id": "llama-3.3-70b-versatile", "name": "Llama 3.3 70B (Groq)", "tier": "cloud",
+      "access": [
+        { "provider": "groq", "id": "llama-3.3-70b-versatile" },
+        { "provider": "nvidia", "id": "meta/llama-3.3-70b-instruct" },
+        { "provider": "openrouter", "id": "meta-llama/llama-3.3-70b-instruct" }
+      ] },
     { "provider": "ollama", "id": "qwen3:1.7b", "name": "Qwen3 1.7B", "tier": "local" },
     { "provider": "ollama", "id": "qwen3:4b", "name": "Qwen3 4B", "tier": "local" },
     { "provider": "ollama", "id": "qwen3:8b", "name": "Qwen3 8B", "tier": "local" },
