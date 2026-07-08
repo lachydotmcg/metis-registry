@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.1.0",
+  "id": "metis.mcp-time",
+  "kind": "mcp",
+  "name": "Time MCP",
+  "version": "1.0.0",
+  "publisher": "modelcontextprotocol",
+  "description": "Current time and timezone conversion.",
+  "tags": [
+    "utility",
+    "official"
+  ],
+  "permissions_requested": [],
+  "source_url": "https://raw.githubusercontent.com/lachydotmcg/metis-registry/main/packages/metis.mcp-time/mcp.json"
+}

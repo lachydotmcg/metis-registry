@@ -1,6 +1,22 @@
 {
   "schema_version": "0.1.0",
-  "updated": "2026-07-03",
+  "updated": "2026-07-08",
   "comment": "Package index — the app fetches this to enumerate packages, then each packages/<id>/manifest.json. Add your package id here in the same PR that adds your folder.",
-  "packages": ["lachydotmcg.slopsec", "lachydotmcg.ui-design"]
+  "packages": [
+    "lachydotmcg.slopsec",
+    "lachydotmcg.ui-design",
+    "metis.mcp-filesystem",
+    "metis.mcp-fetch",
+    "metis.mcp-git",
+    "metis.mcp-memory",
+    "metis.mcp-sequential-thinking",
+    "metis.mcp-time",
+    "anthropic.docx",
+    "anthropic.pdf",
+    "anthropic.pptx",
+    "anthropic.xlsx",
+    "metis.preset-local-web-builder",
+    "metis.preset-secure-ship",
+    "metis.preset-docs-factory"
+  ]
 }

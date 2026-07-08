@@ -1,0 +1,20 @@
+{
+  "name": "Docs Factory",
+  "prerequisiteSkills": [
+    "Word Documents (docx)",
+    "PowerPoint (pptx)",
+    "PDF Toolkit (pdf)"
+  ],
+  "stages": [
+    {
+      "role": "plan",
+      "provider": "claude",
+      "model": "Sonnet 5"
+    },
+    {
+      "role": "functional",
+      "provider": "claude",
+      "model": "Sonnet 5"
+    }
+  ]
+}

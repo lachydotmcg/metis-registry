@@ -1,0 +1,19 @@
+{
+  "schema_version": "0.1.0",
+  "id": "metis.mcp-git",
+  "kind": "mcp",
+  "name": "Git MCP",
+  "version": "1.0.0",
+  "publisher": "modelcontextprotocol",
+  "description": "Read, search, and manipulate local Git repositories.",
+  "tags": [
+    "git",
+    "dev",
+    "official"
+  ],
+  "permissions_requested": [
+    "filesystem.read",
+    "filesystem.write"
+  ],
+  "source_url": "https://raw.githubusercontent.com/lachydotmcg/metis-registry/main/packages/metis.mcp-git/mcp.json"
+}

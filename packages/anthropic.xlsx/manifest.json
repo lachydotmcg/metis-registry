@@ -1,0 +1,19 @@
+{
+  "schema_version": "0.1.0",
+  "id": "anthropic.xlsx",
+  "kind": "skill",
+  "name": "Spreadsheets (xlsx)",
+  "version": "1.0.0",
+  "publisher": "anthropic",
+  "description": "Open, read, edit, and create .xlsx/.csv spreadsheets: formulas, formatting, charts, cleaning messy tabular data.",
+  "tags": [
+    "spreadsheets",
+    "office",
+    "xlsx"
+  ],
+  "permissions_requested": [
+    "filesystem.read",
+    "filesystem.write"
+  ],
+  "source_url": "https://raw.githubusercontent.com/lachydotmcg/metis-registry/main/packages/anthropic.xlsx/SKILL.md"
+}

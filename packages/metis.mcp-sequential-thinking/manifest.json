@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.1.0",
+  "id": "metis.mcp-sequential-thinking",
+  "kind": "mcp",
+  "name": "Sequential Thinking MCP",
+  "version": "1.0.0",
+  "publisher": "modelcontextprotocol",
+  "description": "Structured, reflective step-by-step reasoning tool.",
+  "tags": [
+    "reasoning",
+    "official"
+  ],
+  "permissions_requested": [],
+  "source_url": "https://raw.githubusercontent.com/lachydotmcg/metis-registry/main/packages/metis.mcp-sequential-thinking/mcp.json"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Secure Ship",
+  "prerequisiteSkills": [
+    "SlopSec",
+    "Code Review",
+    "Testing"
+  ],
+  "stages": [
+    {
+      "role": "plan",
+      "provider": "claude",
+      "model": "Sonnet 5"
+    },
+    {
+      "role": "frontend",
+      "provider": "claude",
+      "model": "Sonnet 5"
+    },
+    {
+      "role": "functional",
+      "provider": "deepseek",
+      "model": "V3"
+    }
+  ]
+}

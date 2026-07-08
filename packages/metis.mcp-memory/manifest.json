@@ -1,0 +1,18 @@
+{
+  "schema_version": "0.1.0",
+  "id": "metis.mcp-memory",
+  "kind": "mcp",
+  "name": "Memory MCP",
+  "version": "1.0.0",
+  "publisher": "modelcontextprotocol",
+  "description": "Knowledge-graph based persistent memory across sessions.",
+  "tags": [
+    "memory",
+    "official"
+  ],
+  "permissions_requested": [
+    "filesystem.read",
+    "filesystem.write"
+  ],
+  "source_url": "https://raw.githubusercontent.com/lachydotmcg/metis-registry/main/packages/metis.mcp-memory/mcp.json"
+}

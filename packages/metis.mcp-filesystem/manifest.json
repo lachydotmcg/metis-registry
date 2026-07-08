@@ -1,0 +1,19 @@
+{
+  "schema_version": "0.1.0",
+  "id": "metis.mcp-filesystem",
+  "kind": "mcp",
+  "name": "Filesystem MCP",
+  "version": "1.0.0",
+  "publisher": "modelcontextprotocol",
+  "description": "Secure local file operations (read/write/list) with configurable access roots.",
+  "tags": [
+    "files",
+    "local",
+    "official"
+  ],
+  "permissions_requested": [
+    "filesystem.read",
+    "filesystem.write"
+  ],
+  "source_url": "https://raw.githubusercontent.com/lachydotmcg/metis-registry/main/packages/metis.mcp-filesystem/mcp.json"
+}

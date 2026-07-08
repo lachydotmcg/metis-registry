@@ -1,0 +1,30 @@
+{
+  "name": "Local-first Web Builder",
+  "prerequisiteSkills": [
+    "UI Design",
+    "Code Review"
+  ],
+  "stages": [
+    {
+      "role": "plan",
+      "provider": "qwen",
+      "model": "Qwen2.5 7B"
+    },
+    {
+      "role": "frontend",
+      "provider": "claude",
+      "model": "Sonnet 5",
+      "fallback": [
+        {
+          "provider": "gemini",
+          "model": "2.5 Pro"
+        }
+      ]
+    },
+    {
+      "role": "functional",
+      "provider": "deepseek",
+      "model": "V3"
+    }
+  ]
+}

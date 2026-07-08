@@ -1,0 +1,17 @@
+{
+  "schema_version": "0.1.0",
+  "id": "metis.mcp-fetch",
+  "kind": "mcp",
+  "name": "Fetch MCP",
+  "version": "1.0.0",
+  "publisher": "modelcontextprotocol",
+  "description": "Fetch a URL and convert it to clean markdown for the model.",
+  "tags": [
+    "web",
+    "official"
+  ],
+  "permissions_requested": [
+    "network.web"
+  ],
+  "source_url": "https://raw.githubusercontent.com/lachydotmcg/metis-registry/main/packages/metis.mcp-fetch/mcp.json"
+}

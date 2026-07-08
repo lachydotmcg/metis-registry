@@ -1,0 +1,16 @@
+{
+  "schema_version": "0.1.0",
+  "id": "metis.preset-secure-ship",
+  "kind": "preset",
+  "name": "Secure Ship",
+  "version": "1.0.0",
+  "publisher": "Metis",
+  "description": "Build, then run a SlopSec security pass before you ship. Prereq skills: SlopSec, Code Review, Testing.",
+  "tags": [
+    "preset",
+    "security",
+    "review"
+  ],
+  "permissions_requested": [],
+  "source_url": "https://raw.githubusercontent.com/lachydotmcg/metis-registry/main/packages/metis.preset-secure-ship/preset.json"
+}

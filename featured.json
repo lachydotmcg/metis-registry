@@ -1,8 +1,14 @@
 {
   "schema_version": "0.1.0",
-  "updated": "2026-07-03",
-  "comment": "The Pulse feed. Metis Orchestrator's Pulse tab renders these sections; edit this file to publish.",
+  "updated": "2026-07-08",
+  "comment": "The Pulse feed. Metis Orchestrator's Pulse tab renders these sections; edit this file to publish. news[] entries may carry optional image + tag fields for the bento tiles.",
+  "discordInvite": "https://discord.gg/",
   "changelog": [
+    {
+      "date": "2026-07-08",
+      "title": "Marketplace stocked: MCP, skills, and presets",
+      "blurb": "The registry now ships real content out of the box: six official MCP servers (filesystem, fetch, git, memory, sequential-thinking, time), the document skills (docx, pdf, pptx, xlsx), and starter presets you can install and remix. Publish your own with a pull request."
+    },
     {
       "date": "2026-07-03",
       "title": "The registry is live",
@@ -11,10 +17,33 @@
   ],
   "community": [
     {
+      "date": "2026-07-08",
+      "title": "MCP connections landed",
+      "blurb": "Six official Model Context Protocol servers are now one click away in the Marketplace, each with a ready-to-edit connection config."
+    },
+    {
+      "date": "2026-07-08",
+      "title": "Document skills published",
+      "blurb": "docx, pdf, pptx, and xlsx skills so a pipeline can turn notes into polished deliverables. Pair them with the Docs Factory preset."
+    },
+    {
       "date": "2026-07-03",
       "title": "SlopSec published",
       "blurb": "lachydotmcg's security-audit skill for vibe-coded SaaS apps is live in the registry — 50 common ways AI-built apps get pwned, as a repeatable checklist with severity scoring."
     }
   ],
-  "news": []
+  "news": [
+    {
+      "title": "Local-first routing keeps your tokens (and your data) at home",
+      "url": "https://github.com/lachydotmcg/metis-orchestrator",
+      "blurb": "Quality, cost, and quota routing in one policy — escalate to the cloud only when a prompt truly needs it.",
+      "tag": "METIS"
+    },
+    {
+      "title": "Model Context Protocol: what the servers actually do",
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "blurb": "The official reference servers, now installable from the Marketplace.",
+      "tag": "MCP"
+    }
+  ]
 }
