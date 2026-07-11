@@ -1,0 +1,19 @@
+{
+  "schema_version": "0.1.0",
+  "id": "metis.mcp-gdrive",
+  "kind": "mcp",
+  "name": "Google Drive MCP",
+  "version": "1.0.0",
+  "publisher": "modelcontextprotocol",
+  "description": "List, read, and search files in a Google Drive account via OAuth.",
+  "tags": [
+    "google-drive",
+    "storage",
+    "archived"
+  ],
+  "permissions_requested": [
+    "network.web",
+    "filesystem.read"
+  ],
+  "source_url": "https://raw.githubusercontent.com/lachydotmcg/metis-registry/main/packages/metis.mcp-gdrive/mcp.json"
+}

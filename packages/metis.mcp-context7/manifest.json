@@ -1,0 +1,18 @@
+{
+  "schema_version": "0.1.0",
+  "id": "metis.mcp-context7",
+  "kind": "mcp",
+  "name": "Context7 MCP",
+  "version": "1.0.0",
+  "publisher": "upstash",
+  "description": "Injects up-to-date, version-specific library documentation and code examples into the model's context.",
+  "tags": [
+    "docs",
+    "web",
+    "dev"
+  ],
+  "permissions_requested": [
+    "network.web"
+  ],
+  "source_url": "https://raw.githubusercontent.com/lachydotmcg/metis-registry/main/packages/metis.mcp-context7/mcp.json"
+}

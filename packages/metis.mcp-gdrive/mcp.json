@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "gdrive": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-gdrive"
+      ],
+      "env": {
+        "GDRIVE_CREDENTIALS_PATH": "<GDRIVE_CREDENTIALS_PATH>"
+      }
+    }
+  }
+}

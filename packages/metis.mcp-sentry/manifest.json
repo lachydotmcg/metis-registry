@@ -1,0 +1,20 @@
+{
+  "schema_version": "0.1.0",
+  "id": "metis.mcp-sentry",
+  "kind": "mcp",
+  "name": "Sentry MCP",
+  "version": "1.0.0",
+  "publisher": "sentry",
+  "description": "Query Sentry error data, projects, and issues from a coding agent for debugging and triage.",
+  "tags": [
+    "sentry",
+    "observability",
+    "debugging",
+    "official"
+  ],
+  "permissions_requested": [
+    "network.web",
+    "mcp.invoke"
+  ],
+  "source_url": "https://raw.githubusercontent.com/lachydotmcg/metis-registry/main/packages/metis.mcp-sentry/mcp.json"
+}

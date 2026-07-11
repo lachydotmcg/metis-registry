@@ -1,0 +1,20 @@
+{
+  "schema_version": "0.1.0",
+  "id": "metis.mcp-notion",
+  "kind": "mcp",
+  "name": "Notion MCP",
+  "version": "1.0.0",
+  "publisher": "notion",
+  "description": "Official Notion MCP server: read and edit pages, databases, and blocks in a Notion workspace.",
+  "tags": [
+    "notion",
+    "docs",
+    "productivity",
+    "official"
+  ],
+  "permissions_requested": [
+    "network.web",
+    "mcp.invoke"
+  ],
+  "source_url": "https://raw.githubusercontent.com/lachydotmcg/metis-registry/main/packages/metis.mcp-notion/mcp.json"
+}

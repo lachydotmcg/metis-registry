@@ -1,0 +1,19 @@
+{
+  "schema_version": "0.1.0",
+  "id": "metis.mcp-slack",
+  "kind": "mcp",
+  "name": "Slack MCP",
+  "version": "1.0.0",
+  "publisher": "modelcontextprotocol",
+  "description": "Read and post messages, list channels, and interact with a Slack workspace.",
+  "tags": [
+    "slack",
+    "chat",
+    "team"
+  ],
+  "permissions_requested": [
+    "network.web",
+    "mcp.invoke"
+  ],
+  "source_url": "https://raw.githubusercontent.com/lachydotmcg/metis-registry/main/packages/metis.mcp-slack/mcp.json"
+}

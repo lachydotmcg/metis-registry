@@ -1,0 +1,18 @@
+{
+  "schema_version": "0.1.0",
+  "id": "metis.mcp-everything",
+  "kind": "mcp",
+  "name": "Everything MCP",
+  "version": "1.0.0",
+  "publisher": "modelcontextprotocol",
+  "description": "Reference/test server exercising the full MCP surface (prompts, resources, tools, sampling) — useful for probing client behaviour.",
+  "tags": [
+    "reference",
+    "testing",
+    "official"
+  ],
+  "permissions_requested": [
+    "mcp.invoke"
+  ],
+  "source_url": "https://raw.githubusercontent.com/lachydotmcg/metis-registry/main/packages/metis.mcp-everything/mcp.json"
+}

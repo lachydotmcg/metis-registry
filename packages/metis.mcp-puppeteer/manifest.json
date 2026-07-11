@@ -1,0 +1,20 @@
+{
+  "schema_version": "0.1.0",
+  "id": "metis.mcp-puppeteer",
+  "kind": "mcp",
+  "name": "Puppeteer MCP",
+  "version": "1.0.0",
+  "publisher": "modelcontextprotocol",
+  "description": "Browser automation via Puppeteer: navigate pages, take screenshots, and execute JavaScript in a real browser.",
+  "tags": [
+    "browser",
+    "automation",
+    "archived"
+  ],
+  "permissions_requested": [
+    "network.web",
+    "filesystem.write",
+    "mcp.invoke"
+  ],
+  "source_url": "https://raw.githubusercontent.com/lachydotmcg/metis-registry/main/packages/metis.mcp-puppeteer/mcp.json"
+}

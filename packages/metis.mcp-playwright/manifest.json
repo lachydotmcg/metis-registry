@@ -1,0 +1,21 @@
+{
+  "schema_version": "0.1.0",
+  "id": "metis.mcp-playwright",
+  "kind": "mcp",
+  "name": "Playwright MCP",
+  "version": "1.0.0",
+  "publisher": "microsoft",
+  "description": "Browser automation via Playwright, driven through structured accessibility snapshots instead of screenshots.",
+  "tags": [
+    "browser",
+    "automation",
+    "testing",
+    "official"
+  ],
+  "permissions_requested": [
+    "network.web",
+    "filesystem.write",
+    "mcp.invoke"
+  ],
+  "source_url": "https://raw.githubusercontent.com/lachydotmcg/metis-registry/main/packages/metis.mcp-playwright/mcp.json"
+}

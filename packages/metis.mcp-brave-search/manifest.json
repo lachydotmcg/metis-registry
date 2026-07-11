@@ -1,0 +1,18 @@
+{
+  "schema_version": "0.1.0",
+  "id": "metis.mcp-brave-search",
+  "kind": "mcp",
+  "name": "Brave Search MCP",
+  "version": "1.0.0",
+  "publisher": "modelcontextprotocol",
+  "description": "Web and local search via the Brave Search API, with pagination and freshness controls.",
+  "tags": [
+    "search",
+    "web",
+    "official"
+  ],
+  "permissions_requested": [
+    "network.web"
+  ],
+  "source_url": "https://raw.githubusercontent.com/lachydotmcg/metis-registry/main/packages/metis.mcp-brave-search/mcp.json"
+}

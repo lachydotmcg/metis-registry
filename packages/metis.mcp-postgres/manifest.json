@@ -1,0 +1,19 @@
+{
+  "schema_version": "0.1.0",
+  "id": "metis.mcp-postgres",
+  "kind": "mcp",
+  "name": "PostgreSQL MCP",
+  "version": "1.0.0",
+  "publisher": "modelcontextprotocol",
+  "description": "Read-only access to a PostgreSQL database: inspect schemas and run read-only queries.",
+  "tags": [
+    "database",
+    "postgres",
+    "sql",
+    "archived"
+  ],
+  "permissions_requested": [
+    "network.web"
+  ],
+  "source_url": "https://raw.githubusercontent.com/lachydotmcg/metis-registry/main/packages/metis.mcp-postgres/mcp.json"
+}
