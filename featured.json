@@ -1,13 +1,23 @@
 {
   "schema_version": "0.1.0",
-  "updated": "2026-07-11",
-  "comment": "The Pulse feed. Metis Orchestrator's Pulse tab renders these sections; edit this file to publish. news[] entries may carry optional image + tag fields for the bento tiles.",
+  "updated": "2026-07-12",
+  "comment": "The Community feed. Metis Orchestrator's Community tab renders these sections; edit this file to publish. news[] entries may carry optional image + tag fields for the bento tiles.",
   "discordInvite": "https://discord.gg/zFY7AUkeZH",
   "changelog": [
     {
+      "date": "2026-07-12",
+      "title": "Metis Oracle: answers before you press enter",
+      "blurb": "Oracle reads your prompt as you type, prewarms the model so it reads the whole prompt during your pauses, and drafts the full response in the background. On an unchanged prompt it serves the finished answer instantly. Roughly 4.1x to 9.5x faster first token on local models. Off by default, local-first, one toggle in Settings, Chat, Experiments."
+    },
+    {
+      "date": "2026-07-12",
+      "title": "Metis Orchestrator 1.0",
+      "blurb": "The first tagged release. A system tray with live status and a pause switch for background routines, a Ctrl+K command palette, a first-run onboarding that benchmarks your hardware and installs the right local models, a real profile, and a pile of routing and workspace fixes. Pinned models now run as a pure direct chat with zero orchestration."
+    },
+    {
       "date": "2026-07-11",
       "title": "MCP marketplace expansion: 12 more real connections",
-      "blurb": "GitHub, Brave Search, Playwright, Puppeteer, Postgres, SQLite, Slack, Everything, Context7, Notion, Sentry, and Google Drive join the six starter MCP servers — all real npm packages, install with a click, then fill in your own tokens and paths."
+      "blurb": "GitHub, Brave Search, Playwright, Puppeteer, Postgres, SQLite, Slack, Everything, Context7, Notion, Sentry, and Google Drive join the six starter MCP servers, all real npm packages, install with a click, then fill in your own tokens and paths."
     },
     {
       "date": "2026-07-08",
@@ -21,6 +31,11 @@
     }
   ],
   "community": [
+    {
+      "date": "2026-07-12",
+      "title": "How Oracle works, in one line",
+      "blurb": "Causal attention means the KV cache is a pure function of the prompt prefix, so warming with the exact assembled prompt lets the model do its reading during your pauses. It is a cousin of speculative decoding at prompt and answer granularity instead of token granularity."
+    },
     {
       "date": "2026-07-11",
       "title": "Dev-tool MCPs join the roster",
