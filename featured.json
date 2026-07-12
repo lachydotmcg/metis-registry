@@ -2,7 +2,7 @@
   "schema_version": "0.1.0",
   "updated": "2026-07-11",
   "comment": "The Pulse feed. Metis Orchestrator's Pulse tab renders these sections; edit this file to publish. news[] entries may carry optional image + tag fields for the bento tiles.",
-  "discordInvite": "https://discord.gg/",
+  "discordInvite": "https://discord.gg/zFY7AUkeZH",
   "changelog": [
     {
       "date": "2026-07-11",
