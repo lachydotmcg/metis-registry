@@ -1,0 +1,25 @@
+{
+  "name": "Bug Triage and Fix",
+  "prerequisiteSkills": [
+    "Code Review",
+    "Testing"
+  ],
+  "stages": [
+    {
+      "role": "plan",
+      "provider": "qwen",
+      "model": "Qwen2.5 7B"
+    },
+    {
+      "role": "functional",
+      "provider": "deepseek",
+      "model": "V3",
+      "fallback": [
+        {
+          "provider": "claude",
+          "model": "Sonnet 5"
+        }
+      ]
+    }
+  ]
+}

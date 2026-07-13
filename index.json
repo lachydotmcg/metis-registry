@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "updated": "2026-07-11",
+  "updated": "2026-07-12",
   "comment": "Package index — the app fetches this to enumerate packages, then each packages/<id>/manifest.json. Add your package id here in the same PR that adds your folder.",
   "packages": [
     "lachydotmcg.slopsec",
@@ -29,6 +29,8 @@
     "anthropic.xlsx",
     "metis.preset-local-web-builder",
     "metis.preset-secure-ship",
-    "metis.preset-docs-factory"
+    "metis.preset-docs-factory",
+    "metis.preset-bug-triage-fix",
+    "metis.preset-refactor-pass"
   ]
 }

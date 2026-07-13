@@ -1,0 +1,25 @@
+{
+  "name": "Refactor Pass",
+  "prerequisiteSkills": [
+    "Code Review",
+    "Testing"
+  ],
+  "stages": [
+    {
+      "role": "plan",
+      "provider": "claude",
+      "model": "Sonnet 5"
+    },
+    {
+      "role": "functional",
+      "provider": "deepseek",
+      "model": "V3",
+      "fallback": [
+        {
+          "provider": "gemini",
+          "model": "2.5 Pro"
+        }
+      ]
+    }
+  ]
+}
