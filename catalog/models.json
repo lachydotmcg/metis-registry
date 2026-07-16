@@ -129,18 +129,53 @@
     { "provider": "ollama", "id": "llama4:scout", "name": "Llama 4 Scout 109B MoE", "tier": "local" },
     { "provider": "ollama", "id": "llama4:maverick", "name": "Llama 4 Maverick 400B MoE", "tier": "local" },
     { "provider": "ollama", "id": "deepseek-r1:7b", "name": "DeepSeek R1 Distill 7B", "tier": "local" },
-    { "provider": "ollama", "id": "deepseek-r1:14b", "name": "DeepSeek R1 Distill 14B", "tier": "local" },
-    { "provider": "ollama", "id": "deepseek-r1:32b", "name": "DeepSeek R1 Distill 32B", "tier": "local" },
-    { "provider": "ollama", "id": "deepseek-r1:70b", "name": "DeepSeek R1 Distill 70B", "tier": "local" },
-    { "provider": "ollama", "id": "deepseek-r1:671b", "name": "DeepSeek R1 671B MoE", "tier": "local" },
-    { "provider": "ollama", "id": "deepseek-v3.2:671b", "name": "DeepSeek V3.2 671B MoE", "tier": "local" },
+    { "provider": "ollama", "id": "deepseek-r1:14b", "name": "DeepSeek R1 Distill 14B", "tier": "local",
+      "access": [
+        { "provider": "ollama", "id": "deepseek-r1:14b" },
+        { "provider": "openrouter", "id": "deepseek/deepseek-r1-distill-qwen-14b" }
+      ] },
+    { "provider": "ollama", "id": "deepseek-r1:32b", "name": "DeepSeek R1 Distill 32B", "tier": "local",
+      "access": [
+        { "provider": "ollama", "id": "deepseek-r1:32b" },
+        { "provider": "openrouter", "id": "deepseek/deepseek-r1-distill-qwen-32b" }
+      ] },
+    { "provider": "ollama", "id": "deepseek-r1:70b", "name": "DeepSeek R1 Distill 70B", "tier": "local",
+      "access": [
+        { "provider": "ollama", "id": "deepseek-r1:70b" },
+        { "provider": "groq", "id": "deepseek-r1-distill-llama-70b" },
+        { "provider": "openrouter", "id": "deepseek/deepseek-r1-distill-llama-70b" }
+      ] },
+    { "provider": "ollama", "id": "deepseek-r1:671b", "name": "DeepSeek R1 671B MoE", "tier": "local",
+      "access": [
+        { "provider": "ollama", "id": "deepseek-r1:671b" },
+        { "provider": "nvidia", "id": "deepseek-ai/deepseek-r1" },
+        { "provider": "openrouter", "id": "deepseek/deepseek-r1" }
+      ] },
+    { "provider": "ollama", "id": "deepseek-v3.2:671b", "name": "DeepSeek V3.2 671B MoE", "tier": "local",
+      "access": [
+        { "provider": "ollama", "id": "deepseek-v3.2:671b" },
+        { "provider": "nvidia", "id": "deepseek-ai/deepseek-v3.2" },
+        { "provider": "openrouter", "id": "deepseek/deepseek-v3.2" }
+      ] },
     { "provider": "ollama", "id": "gemma3:1b", "name": "Gemma 3 1B", "tier": "local" },
     { "provider": "ollama", "id": "gemma3:4b", "name": "Gemma 3 4B", "tier": "local" },
     { "provider": "ollama", "id": "gemma3:12b", "name": "Gemma 3 12B", "tier": "local" },
     { "provider": "ollama", "id": "gemma3:27b", "name": "Gemma 3 27B", "tier": "local" },
     { "provider": "ollama", "id": "gemma4:e4b", "name": "Gemma 4 E4B", "tier": "local" },
-    { "provider": "ollama", "id": "gpt-oss:20b", "name": "gpt-oss 20B", "tier": "local" },
-    { "provider": "ollama", "id": "gpt-oss:120b", "name": "gpt-oss 120B", "tier": "local" },
+    { "provider": "ollama", "id": "gpt-oss:20b", "name": "gpt-oss 20B", "tier": "local",
+      "access": [
+        { "provider": "ollama", "id": "gpt-oss:20b" },
+        { "provider": "groq", "id": "openai/gpt-oss-20b" },
+        { "provider": "nvidia", "id": "openai/gpt-oss-20b" },
+        { "provider": "openrouter", "id": "openai/gpt-oss-20b" }
+      ] },
+    { "provider": "ollama", "id": "gpt-oss:120b", "name": "gpt-oss 120B", "tier": "local",
+      "access": [
+        { "provider": "ollama", "id": "gpt-oss:120b" },
+        { "provider": "groq", "id": "openai/gpt-oss-120b" },
+        { "provider": "nvidia", "id": "openai/gpt-oss-120b" },
+        { "provider": "openrouter", "id": "openai/gpt-oss-120b" }
+      ] },
     { "provider": "ollama", "id": "qwen3-vl:8b", "name": "Qwen3-VL 8B (vision)", "tier": "local" },
     { "provider": "ollama", "id": "qwen3-vl:32b", "name": "Qwen3-VL 32B (vision)", "tier": "local" },
     { "provider": "ollama", "id": "qwen3-embedding:0.6b", "name": "Qwen3 Embedding 0.6B", "tier": "local" },
