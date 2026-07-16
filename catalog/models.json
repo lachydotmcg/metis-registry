@@ -1,122 +1,122 @@
 {
   "schema_version": "0.1.0",
   "updated": "2026-07-11",
-  "comment": "Live model catalog. Metis Orchestrator fetches this on launch (cached offline). API ids are best-effort where vendors haven't been verified — PRs correcting ids are welcome. Schema v2: per-model access[] listing every provider route to the same model. OpenRouter is treated as a near-universal gateway — most cloud models carry an openrouter route in addition to their native one.",
+  "comment": "Live model catalog. Metis Orchestrator fetches this on launch (cached offline). API ids are best-effort where vendors haven't been verified — PRs correcting ids are welcome. Schema v2: per-model access[] listing every provider route to the same model. OpenRouter is treated as a near-universal gateway — most cloud models carry an openrouter route in addition to their native one. Cloud routes now carry a pricing object ({in, out} USD per million tokens, best-effort); local (Ollama) entries and routes have no pricing field because local inference is free.",
   "models": [
     { "provider": "anthropic", "id": "claude-fable-5", "name": "Claude Fable 5", "tier": "cloud",
       "access": [
-        { "provider": "anthropic", "id": "claude-fable-5" },
-        { "provider": "openrouter", "id": "anthropic/claude-fable-5" }
+        { "provider": "anthropic", "id": "claude-fable-5", "pricing": { "in": 10, "out": 50 } },
+        { "provider": "openrouter", "id": "anthropic/claude-fable-5", "pricing": { "in": 10.5, "out": 52.5 } }
       ] },
     { "provider": "anthropic", "id": "claude-sonnet-5", "name": "Claude Sonnet 5", "tier": "cloud",
       "access": [
-        { "provider": "anthropic", "id": "claude-sonnet-5" },
-        { "provider": "openrouter", "id": "anthropic/claude-sonnet-5" }
+        { "provider": "anthropic", "id": "claude-sonnet-5", "pricing": { "in": 3, "out": 15 } },
+        { "provider": "openrouter", "id": "anthropic/claude-sonnet-5", "pricing": { "in": 3.15, "out": 15.75 } }
       ] },
     { "provider": "anthropic", "id": "claude-opus-4-8", "name": "Claude Opus 4.8", "tier": "cloud",
       "access": [
-        { "provider": "anthropic", "id": "claude-opus-4-8" },
-        { "provider": "openrouter", "id": "anthropic/claude-opus-4.8" }
+        { "provider": "anthropic", "id": "claude-opus-4-8", "pricing": { "in": 5, "out": 25 } },
+        { "provider": "openrouter", "id": "anthropic/claude-opus-4.8", "pricing": { "in": 5.25, "out": 26.25 } }
       ] },
     { "provider": "anthropic", "id": "claude-haiku-4-5-20251001", "name": "Claude Haiku 4.5", "tier": "cloud",
       "access": [
-        { "provider": "anthropic", "id": "claude-haiku-4-5-20251001" },
-        { "provider": "openrouter", "id": "anthropic/claude-haiku-4.5" }
+        { "provider": "anthropic", "id": "claude-haiku-4-5-20251001", "pricing": { "in": 1, "out": 5 } },
+        { "provider": "openrouter", "id": "anthropic/claude-haiku-4.5", "pricing": { "in": 1.05, "out": 5.25 } }
       ] },
     { "provider": "openai", "id": "gpt-5.6-sol", "name": "GPT-5.6 Sol", "tier": "cloud",
       "access": [
-        { "provider": "openai", "id": "gpt-5.6-sol" },
-        { "provider": "openrouter", "id": "openai/gpt-5.6-sol" }
+        { "provider": "openai", "id": "gpt-5.6-sol", "pricing": { "in": 8, "out": 24 } },
+        { "provider": "openrouter", "id": "openai/gpt-5.6-sol", "pricing": { "in": 8.4, "out": 25.2 } }
       ] },
     { "provider": "openai", "id": "gpt-5.6-terra", "name": "GPT-5.6 Terra", "tier": "cloud",
       "access": [
-        { "provider": "openai", "id": "gpt-5.6-terra" },
-        { "provider": "openrouter", "id": "openai/gpt-5.6-terra" }
+        { "provider": "openai", "id": "gpt-5.6-terra", "pricing": { "in": 2, "out": 8 } },
+        { "provider": "openrouter", "id": "openai/gpt-5.6-terra", "pricing": { "in": 2.1, "out": 8.4 } }
       ] },
     { "provider": "openai", "id": "gpt-5.6-luna", "name": "GPT-5.6 Luna", "tier": "cloud",
       "access": [
-        { "provider": "openai", "id": "gpt-5.6-luna" },
-        { "provider": "openrouter", "id": "openai/gpt-5.6-luna" }
+        { "provider": "openai", "id": "gpt-5.6-luna", "pricing": { "in": 0.3, "out": 1.2 } },
+        { "provider": "openrouter", "id": "openai/gpt-5.6-luna", "pricing": { "in": 0.32, "out": 1.26 } }
       ] },
     { "provider": "openai", "id": "gpt-5.5-pro", "name": "GPT-5.5 Pro", "tier": "cloud",
       "access": [
-        { "provider": "openai", "id": "gpt-5.5-pro" },
-        { "provider": "openrouter", "id": "openai/gpt-5.5-pro" }
+        { "provider": "openai", "id": "gpt-5.5-pro", "pricing": { "in": 6, "out": 18 } },
+        { "provider": "openrouter", "id": "openai/gpt-5.5-pro", "pricing": { "in": 6.3, "out": 18.9 } }
       ] },
     { "provider": "openai", "id": "gpt-5.5-instant", "name": "GPT-5.5 Instant", "tier": "cloud",
       "access": [
-        { "provider": "openai", "id": "gpt-5.5-instant" },
-        { "provider": "openrouter", "id": "openai/gpt-5.5-instant" }
+        { "provider": "openai", "id": "gpt-5.5-instant", "pricing": { "in": 0.25, "out": 1 } },
+        { "provider": "openrouter", "id": "openai/gpt-5.5-instant", "pricing": { "in": 0.26, "out": 1.05 } }
       ] },
     { "provider": "openai", "id": "o3", "name": "OpenAI o3", "tier": "cloud",
       "access": [
-        { "provider": "openai", "id": "o3" },
-        { "provider": "openrouter", "id": "openai/o3" }
+        { "provider": "openai", "id": "o3", "pricing": { "in": 2, "out": 8 } },
+        { "provider": "openrouter", "id": "openai/o3", "pricing": { "in": 2.1, "out": 8.4 } }
       ] },
     { "provider": "openrouter", "id": "x-ai/grok-4.5", "name": "Grok 4.5", "tier": "cloud",
       "access": [
-        { "provider": "openrouter", "id": "x-ai/grok-4.5" }
+        { "provider": "openrouter", "id": "x-ai/grok-4.5", "pricing": { "in": 3, "out": 15 } }
       ] },
     { "provider": "gemini", "id": "gemini-3.1-pro", "name": "Gemini 3.1 Pro", "tier": "cloud",
       "access": [
-        { "provider": "gemini", "id": "gemini-3.1-pro" },
-        { "provider": "openrouter", "id": "google/gemini-3.1-pro" }
+        { "provider": "gemini", "id": "gemini-3.1-pro", "pricing": { "in": 3, "out": 12 } },
+        { "provider": "openrouter", "id": "google/gemini-3.1-pro", "pricing": { "in": 3.15, "out": 12.6 } }
       ] },
     { "provider": "gemini", "id": "gemini-3.5-flash", "name": "Gemini 3.5 Flash", "tier": "cloud",
       "access": [
-        { "provider": "gemini", "id": "gemini-3.5-flash" },
-        { "provider": "openrouter", "id": "google/gemini-3.5-flash" }
+        { "provider": "gemini", "id": "gemini-3.5-flash", "pricing": { "in": 0.3, "out": 1.2 } },
+        { "provider": "openrouter", "id": "google/gemini-3.5-flash", "pricing": { "in": 0.32, "out": 1.26 } }
       ] },
     { "provider": "gemini", "id": "gemini-2.5-pro", "name": "Gemini 2.5 Pro", "tier": "cloud",
       "access": [
-        { "provider": "gemini", "id": "gemini-2.5-pro" },
-        { "provider": "openrouter", "id": "google/gemini-2.5-pro" }
+        { "provider": "gemini", "id": "gemini-2.5-pro", "pricing": { "in": 2.5, "out": 10 } },
+        { "provider": "openrouter", "id": "google/gemini-2.5-pro", "pricing": { "in": 2.63, "out": 10.5 } }
       ] },
     { "provider": "gemini", "id": "gemini-2.5-flash", "name": "Gemini 2.5 Flash", "tier": "cloud",
       "access": [
-        { "provider": "gemini", "id": "gemini-2.5-flash" },
-        { "provider": "openrouter", "id": "google/gemini-2.5-flash" }
+        { "provider": "gemini", "id": "gemini-2.5-flash", "pricing": { "in": 0.3, "out": 2.5 } },
+        { "provider": "openrouter", "id": "google/gemini-2.5-flash", "pricing": { "in": 0.32, "out": 2.63 } }
       ] },
     { "provider": "openrouter", "id": "qwen/qwen3.7-max", "name": "Qwen3.7 Max", "tier": "cloud",
       "access": [
-        { "provider": "openrouter", "id": "qwen/qwen3.7-max" },
-        { "provider": "nvidia", "id": "qwen/qwen3.7-max" }
+        { "provider": "openrouter", "id": "qwen/qwen3.7-max", "pricing": { "in": 1.6, "out": 6.4 } },
+        { "provider": "nvidia", "id": "qwen/qwen3.7-max", "pricing": { "in": 1.6, "out": 6.4 } }
       ] },
     { "provider": "deepseek", "id": "deepseek-chat", "name": "DeepSeek V4 Flash", "tier": "cloud",
       "access": [
-        { "provider": "deepseek", "id": "deepseek-chat" },
-        { "provider": "nvidia", "id": "deepseek-ai/deepseek-v4" },
-        { "provider": "openrouter", "id": "deepseek/deepseek-chat" }
+        { "provider": "deepseek", "id": "deepseek-chat", "pricing": { "in": 0.27, "out": 1.1 } },
+        { "provider": "nvidia", "id": "deepseek-ai/deepseek-v4", "pricing": { "in": 0.27, "out": 1.1 } },
+        { "provider": "openrouter", "id": "deepseek/deepseek-chat", "pricing": { "in": 0.28, "out": 1.16 } }
       ] },
     { "provider": "deepseek", "id": "deepseek-reasoner", "name": "DeepSeek V4 Pro", "tier": "cloud",
       "access": [
-        { "provider": "deepseek", "id": "deepseek-reasoner" },
-        { "provider": "nvidia", "id": "deepseek-ai/deepseek-v4-pro" },
-        { "provider": "openrouter", "id": "deepseek/deepseek-r1" }
+        { "provider": "deepseek", "id": "deepseek-reasoner", "pricing": { "in": 0.55, "out": 2.19 } },
+        { "provider": "nvidia", "id": "deepseek-ai/deepseek-v4-pro", "pricing": { "in": 0.55, "out": 2.19 } },
+        { "provider": "openrouter", "id": "deepseek/deepseek-r1", "pricing": { "in": 0.58, "out": 2.3 } }
       ] },
     { "provider": "nvidia", "id": "deepseek-ai/deepseek-v3.1", "name": "DeepSeek V3.1 (NVIDIA)", "tier": "cloud",
       "access": [
-        { "provider": "nvidia", "id": "deepseek-ai/deepseek-v3.1" },
-        { "provider": "openrouter", "id": "deepseek/deepseek-chat-v3.1" }
+        { "provider": "nvidia", "id": "deepseek-ai/deepseek-v3.1", "pricing": { "in": 0.27, "out": 1 } },
+        { "provider": "openrouter", "id": "deepseek/deepseek-chat-v3.1", "pricing": { "in": 0.28, "out": 1.05 } }
       ] },
     { "provider": "openrouter", "id": "x-ai/grok-4.3", "name": "Grok 4.3", "tier": "cloud",
       "access": [
-        { "provider": "openrouter", "id": "x-ai/grok-4.3" }
+        { "provider": "openrouter", "id": "x-ai/grok-4.3", "pricing": { "in": 2, "out": 10 } }
       ] },
     { "provider": "openrouter", "id": "z-ai/glm-5.2", "name": "GLM 5.2", "tier": "cloud",
       "access": [
-        { "provider": "openrouter", "id": "z-ai/glm-5.2" }
+        { "provider": "openrouter", "id": "z-ai/glm-5.2", "pricing": { "in": 0.3, "out": 1.2 } }
       ] },
     { "provider": "openrouter", "id": "moonshotai/kimi-k2.6", "name": "Kimi K2.6", "tier": "cloud",
       "access": [
-        { "provider": "openrouter", "id": "moonshotai/kimi-k2.6" },
-        { "provider": "groq", "id": "moonshotai/kimi-k2-instruct" }
+        { "provider": "openrouter", "id": "moonshotai/kimi-k2.6", "pricing": { "in": 0.5, "out": 2.5 } },
+        { "provider": "groq", "id": "moonshotai/kimi-k2-instruct", "pricing": { "in": 0.6, "out": 3 } }
       ] },
     { "provider": "groq", "id": "llama-3.3-70b-versatile", "name": "Llama 3.3 70B (Groq)", "tier": "cloud",
       "access": [
-        { "provider": "groq", "id": "llama-3.3-70b-versatile" },
-        { "provider": "nvidia", "id": "meta/llama-3.3-70b-instruct" },
-        { "provider": "openrouter", "id": "meta-llama/llama-3.3-70b-instruct" }
+        { "provider": "groq", "id": "llama-3.3-70b-versatile", "pricing": { "in": 0.59, "out": 0.79 } },
+        { "provider": "nvidia", "id": "meta/llama-3.3-70b-instruct", "pricing": { "in": 0.35, "out": 0.4 } },
+        { "provider": "openrouter", "id": "meta-llama/llama-3.3-70b-instruct", "pricing": { "in": 0.35, "out": 0.4 } }
       ] },
     { "provider": "ollama", "id": "qwen3:1.7b", "name": "Qwen3 1.7B", "tier": "local" },
     { "provider": "ollama", "id": "qwen3:4b", "name": "Qwen3 4B", "tier": "local" },
