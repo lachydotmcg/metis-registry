@@ -53,7 +53,10 @@
         { "provider": "openai", "id": "o3" },
         { "provider": "openrouter", "id": "openai/o3" }
       ] },
-    { "provider": "openrouter", "id": "x-ai/grok-4.5", "name": "Grok 4.5", "tier": "cloud" },
+    { "provider": "openrouter", "id": "x-ai/grok-4.5", "name": "Grok 4.5", "tier": "cloud",
+      "access": [
+        { "provider": "openrouter", "id": "x-ai/grok-4.5" }
+      ] },
     { "provider": "gemini", "id": "gemini-3.1-pro", "name": "Gemini 3.1 Pro", "tier": "cloud",
       "access": [
         { "provider": "gemini", "id": "gemini-3.1-pro" },
@@ -68,6 +71,11 @@
       "access": [
         { "provider": "gemini", "id": "gemini-2.5-pro" },
         { "provider": "openrouter", "id": "google/gemini-2.5-pro" }
+      ] },
+    { "provider": "gemini", "id": "gemini-2.5-flash", "name": "Gemini 2.5 Flash", "tier": "cloud",
+      "access": [
+        { "provider": "gemini", "id": "gemini-2.5-flash" },
+        { "provider": "openrouter", "id": "google/gemini-2.5-flash" }
       ] },
     { "provider": "openrouter", "id": "qwen/qwen3.7-max", "name": "Qwen3.7 Max", "tier": "cloud",
       "access": [
@@ -91,8 +99,14 @@
         { "provider": "nvidia", "id": "deepseek-ai/deepseek-v3.1" },
         { "provider": "openrouter", "id": "deepseek/deepseek-chat-v3.1" }
       ] },
-    { "provider": "openrouter", "id": "x-ai/grok-4.3", "name": "Grok 4.3", "tier": "cloud" },
-    { "provider": "openrouter", "id": "z-ai/glm-5.2", "name": "GLM 5.2", "tier": "cloud" },
+    { "provider": "openrouter", "id": "x-ai/grok-4.3", "name": "Grok 4.3", "tier": "cloud",
+      "access": [
+        { "provider": "openrouter", "id": "x-ai/grok-4.3" }
+      ] },
+    { "provider": "openrouter", "id": "z-ai/glm-5.2", "name": "GLM 5.2", "tier": "cloud",
+      "access": [
+        { "provider": "openrouter", "id": "z-ai/glm-5.2" }
+      ] },
     { "provider": "openrouter", "id": "moonshotai/kimi-k2.6", "name": "Kimi K2.6", "tier": "cloud",
       "access": [
         { "provider": "openrouter", "id": "moonshotai/kimi-k2.6" },
