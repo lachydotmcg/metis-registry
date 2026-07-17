@@ -5,6 +5,11 @@
   "discordInvite": "https://discord.gg/zFY7AUkeZH",
   "changelog": [
     {
+      "date": "2026-07-17",
+      "title": "The July 16-17 feature wave",
+      "blurb": "A big couple of days. Per-model gateways are now configurable straight from the Library, so you pick the route per model instead of trusting a global default. The new Usage tab shows real per-route cost estimates plus a 4-hour usage ring, so you can see spend at a glance instead of digging through logs. Oracle now runs in the cloud too, backed by DeepSeek, with draft streaming and near-match serving so a close-enough draft can be served instead of redoing the whole read. On top of that, MCP tools now work inside runs, headless tray mode lets Metis sit in the background with no window open, and conversations can fork mid-thread and hand off with a plain /handoff."
+    },
+    {
       "date": "2026-07-12",
       "title": "Metis Oracle: answers before you press enter",
       "blurb": "Oracle reads your prompt as you type, prewarms the model so it reads the whole prompt during your pauses, and drafts the full response in the background. On an unchanged prompt it serves the finished answer instantly. Roughly 4.1x to 9.5x faster first token on local models. Off by default, local-first, one toggle in Settings, Chat, Experiments."
